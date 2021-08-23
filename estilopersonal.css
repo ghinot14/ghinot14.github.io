@@ -16,14 +16,15 @@ h2{
     text-shadow: rgb(128,128, 128)3px 3px 5px;
 }
 body{
-    background: -webkit-linear-gradient(top,#002fff,#5dbeff);
+    background: linear-gradient(to bottom, blue,#5bc3ff);
     text-align: center;
+
 }
 #agrupar{
     width: 960px;
     margin: 15px auto;
     text-align: left;
-    background: -webkit-linear-gradient(top,#e7c500,#ffffff);
+    background: linear-gradient(to bottom,#e7c500,#ffffff);
 }
 #cabecera{
     background: #057eb6;
