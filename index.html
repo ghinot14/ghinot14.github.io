@@ -3,45 +3,136 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>BIENVENIDOS A MI PAG WEB PERSONAL</title>
+        <title>Ghino Tucto Medina</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+        crossorigin="anonymous">
         <link rel="stylesheet" href="estilo/estilopersonal.css">
     </head>
     <body >
-        <div id="agrupar">
-            <header id="cabecera">
-                <h1>PRINCIPAL</h1>
-                <nav id="menu">
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <section id="seccion">
-                <h2>Bienvenidos!!!</h2>
-                <article>
-                    <header>
-                        <h2>¿Quién Soy?</h2>
-                    </header>
-                   <p>Hola amigos, este es mi sitio web personal mi nombre es <br>
-	                <b>Ghino Tucto Medina</b>.<br></p> 		            
-                    Soy estudiante de la facultad de <b>Ingenieria</b> de la escuela academico<br>
-                    profesional <b><i>Ingenieria De Sistemas</i></b><br>
-	                Soy de la ciudad de <b>Cajamarca</b> tengo <b>23 años</b><br>
-                    <img src="imagenes/perfil.png" alt="."/>
-                    <br><i>Ghino Tucto</i>
-                </article>
-            </section>
-            <aside id="columna">
-                <blockquote>Dearrollado con:</blockquote>
-                <blockquote>HTML</blockquote>
-                <blockquote>CSS</blockquote>
-            </aside>
+        <header class="container-fluid">
+            <div class="row">
+                <h1 class="text-center titulo_inicio">BIENVENIDO</h1>
+            </div>
+            <div class="row" id="opciones">
+                <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+                    <ul class="nav justify-content-end">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="imagenes/gt14(1).png" alt="" height="40" width="40">
+                        </a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Acerca de mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contactame</a>
+                        </li>
+                    </ul> 
+                </nav>        
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/foto01.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/foto02.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/foto03.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/foto04.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+              <hr></hr>
+        </header>
+        <main class="container-fluid">
+            <div class="row">
+                <aside class="col-12 col-lg-2 py-lg-5 bg-gradient d-none d-lg-block">
+                    <div class="text-center text-light">
+                        <b><blockquote>FORMACION ACADEMICA</blockquote></b>
+                    </div>
+                    <p class="text-light">
+                        Soy egresado del colegio <b>SAN RAMON</b>.<br> de Cajamarca,
+                        Promocion 2014.<br>		            
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <figure>
+                            <img src="imagenes/sr.png" height="100" width="100" />
+                        </figure>
+                    </div>
+                    <p class="text-light">
+                        Actualmente soy estudiantes de <b>Ingenieria de Sistemas</b>.<br> 
+                        en la <b>Universidad Nacional de Cajamarca</b>.	            
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <figure>
+                            <img src="imagenes/unc-logo.jpg" height="100" width="100" />
+                        </figure>
+                    </div>
+                </aside>
+    
+                <div class="col-12 col-lg-8 px-lg-5">
+                    <section class="row">
+                        <article class="col-12">
+                            <header class="text-center py-lg-3">
+                                <h2 class="text-primary display-3"> ¿Quién Soy?</h2>
+                            </header>
+                            <p>
+                                Hola amigos, este es mi sitio web personal mi nombre es
+                                <b>Ghino Tucto Medina</b>.<br> 		            
+                                Soy estudiante de la facultad de <b>Ingenieria</b> de la escuela academico
+                                profesional <b><i>Ingenieria De Sistemas</i></b><br>
+                                Soy de la ciudad de <b>Cajamarca</b> tengo <b>23 años</b><br>
+                                Me gusta el futbol y soy creativo, de vez en cuando
+                                me dedico al diseño grafico, por hobbie.
+                            </p>
+                            <figure class="py-lg-3 border-2">
+                                <div class="d-flex justify-content-center">
+                                    <img src="imagenes/perfil.png" alt=" " width="40%"/>
+                                </div>
+                            </figure>
+                        </article>
+                    </section>
+                </div>
+    
+                <aside class="col-12 col-lg-2 py-lg-5 bg-gradient d-none d-lg-block">
+                    <div class="text-center text-light">
+                        <blockquote>EAPIS</blockquote>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <figure>
+                            <img src="imagenes/logo-sistemas.jpg" height="100" width="100" />
+                        </figure>
+                    </div>
+                </aside>
+            </div>
+        </main><hr></hr>
             <footer id="pie">
                 Derechos Reservados a @Ghino Tucto
             </footer>
-        </div>
+            <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
 </html>
