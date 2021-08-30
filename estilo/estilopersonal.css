@@ -32,6 +32,14 @@ article{
 aside{
     background: rgb(74, 101, 255);
 }
+#carouselExampleIndicators{
+    width: 300px;
+    left:25%;
+    padding: 10px;
+}
+audio{
+    width: 200px;
+}
 .fa-facebook-f{
     color:#1327bf;
     font-size:20px;
@@ -43,4 +51,10 @@ aside{
 .fa-linkedin{
     color:#0f02ce;
     font-size:20px;
+}
+#inputPassword3{
+    width: 300px;
+}
+#inputEmail3{
+    width: 300px;
 }
